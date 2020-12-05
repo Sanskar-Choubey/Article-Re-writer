@@ -1,6 +1,6 @@
 //References to the textarea,button and output div
 
-var btnTranslate = document.querySelector("#btn");
+var btnTranslate = document.querySelector(".btn");
 // var inputField = document.querySelector(".input-field");
 // var outputField = document.querySelector(".output-field");
 
