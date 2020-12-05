@@ -2,13 +2,19 @@
 
 :root{
     --background-color:#3B82F6;
-    --secondary-color:#BFDBFE;
+    --secondary-color:#EEF2FF;
+}
+
+hr{
+    max-width: 80px;
+    margin: auto;
+    border-width: 1px;
 }
 .heading .heading-content{
     font-family: 'Playfair Display','sans-serif';
     font-weight: 600;
     font-size: 2rem;
-    max-width: 600px;
+    max-width: 800px;
     margin: auto;
     padding: 1rem;
     background-color:var(--background-color);
@@ -23,4 +29,40 @@
     margin: auto;
     padding: 1rem;
     display: block;
+}
+
+/* Content of the page */
+
+.content .content-heading{
+    font-family: 'Playfair Display','sans-serif';
+    font-size:1.5rem;
+    max-width: 500px;
+    margin: auto;
+    padding: 1rem;
+    text-align: center;
+    display: block;
+}
+
+.content .content-para{
+    font-family: 'Playfair Display','sans-serif';
+    max-width: 900px;
+    margin: auto;
+    display: block;
+    padding: 1rem;
+    text-align: center;
+    word-spacing:1px;
+    letter-spacing:0.5px;
+}
+
+/* Input field of the page */
+.input-field{
+    max-width: 600px;
+    margin: auto;
+    display: block;
+    padding: 2rem;
+    width: 80%;
+    border-radius: 2rem;
+    font-size: 1rem;
+    text-align: center;
+    background-color: var(--secondary-color);
 }
