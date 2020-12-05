@@ -75,6 +75,7 @@ hr{
     padding: 1rem;
     display: block;
     margin-top: 1rem;
+    margin-bottom: 1rem;
     border: 1px solid var(--background-color);
     border-radius: 1rem;
     background-color: var(--secondary-color);
@@ -85,4 +86,22 @@ hr{
     background-color: var(--background-color);
 }
 
-/*  */
+/* output-field of the page */
+.output-field{
+    max-width: 600px;
+    margin: auto;
+    padding: 2rem;
+    border: 1px solid var(--background-color);
+    border-radius: 1rem;
+}
+
+.output-content{
+    font-family: 'Playfair Display','sans-serif';
+    max-width: 900px;
+    margin: auto;
+    display: block;
+    padding: 1rem;
+    text-align: center;
+    word-spacing:1px;
+    letter-spacing:0.5px;
+}
